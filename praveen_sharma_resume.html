@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Sharma - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.35;
+            background-color: #f1f5f9;
+            padding: 20px;
+        }
+        .page {
+            max-width: 820px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 36px 44px;
+            border-radius: 6px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #0f172a;
+            padding-bottom: 12px;
+            margin-bottom: 14px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            color: #0f172a;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .contact-info {
+            font-size: 12.5px;
+            color: #475569;
+        }
+        .contact-info a {
+            color: #0284c7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 12px;
+        }
+        .section-title {
+            font-size: 13.5px;
+            font-weight: 800;
+            color: #0f172a;
+            text-transform: uppercase;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        .summary-text {
+            font-size: 12px;
+            color: #334155;
+            text-align: justify;
+        }
+        .skills-grid {
+            font-size: 12px;
+            color: #334155;
+        }
+        .skills-grid p {
+            margin-bottom: 3px;
+        }
+        .skills-grid strong {
+            color: #0f172a;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 12.5px;
+            margin-top: 5px;
+        }
+        .item-title {
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .item-title a {
+            color: #0284c7;
+            text-decoration: none;
+        }
+        .item-sub {
+            font-size: 12px;
+            color: #475569;
+            font-style: italic;
+        }
+        .item-date {
+            font-size: 11.5px;
+            color: #64748b;
+            font-weight: 600;
+        }
+        ul.bullet-list {
+            list-style-type: disc;
+            margin-left: 18px;
+            margin-top: 3px;
+            margin-bottom: 6px;
+        }
+        ul.bullet-list li {
+            font-size: 11.8px;
+            color: #334155;
+            margin-bottom: 2px;
+            text-align: justify;
+        }
+        ul.bullet-list li strong {
+            color: #0f172a;
+        }
+        .print-btn-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .print-btn {
+            background-color: #0284c7;
+            color: #ffffff;
+            border: none;
+            padding: 9px 18px;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(2, 132, 199, 0.4);
+        }
+        .print-btn:hover {
+            background-color: #0369a1;
+        }
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                padding: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+            .print-btn-container {
+                display: none;
+            }
+            a {
+                color: #0284c7 !important;
+                text-decoration: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-btn-container">
+        <button class="print-btn" onclick="window.print()">🖨️ Print or Save as 1-Page PDF (Ctrl + P)</button>
+    </div>
+
+    <div class="page">
+        <!-- HEADER -->
+        <header>
+            <h1>PRAVEEN SHARMA</h1>
+            <div class="contact-info">
+                Heerwa (JJN), Rajasthan, India &nbsp;|&nbsp; 
+                📞 +91 6375181765 &nbsp;|&nbsp; 
+                ✉️ <a href="mailto:Praveensharma01k@gmail.com">Praveensharma01k@gmail.com</a> &nbsp;|&nbsp; 
+                🌐 <a href="https://github.com/Praveen01k" target="_blank">github.com/Praveen01k</a> &nbsp;|&nbsp;
+                💼 <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </header>
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p class="summary-text">
+                Final-year <strong>B.Tech Computer Science (Data Science)</strong> undergraduate with hands-on expertise building machine learning classification models, cloud data pipelines, and intrusion detection systems. Proficient in <strong>Python, SQL, Scikit-Learn, PyTorch, and AWS</strong>. Demonstrates strong analytical capability, having engineered an end-to-end Cyber Attack Prediction SOC system achieving >99.8% precision with automated early warning playbooks.
+            </p>
+        </div>
+
+        <!-- TECHNICAL SKILLS -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <p><strong>Programming Languages:</strong> Python, SQL, C++, Java</p>
+                <p><strong>Libraries & Frameworks:</strong> Scikit-Learn, Pandas, NumPy, PyTorch, TensorFlow, Matplotlib, Seaborn, Streamlit, Plotly</p>
+                <p><strong>Databases & Cloud:</strong> MySQL Server, PostgreSQL, AWS (S3, EC2, IAM)</p>
+                <p><strong>Core Competencies:</strong> Machine Learning, Anomaly Detection, ETL Pipelines, Feature Engineering, Deep Learning, Generative AI Foundations</p>
+                <p><strong>Developer Tools:</strong> Git, GitHub, VS Code, Jupyter Notebook, Tableau Server, Linux CLI</p>
+            </div>
+        </div>
+
+        <!-- TECHNICAL PROJECTS -->
+        <div class="section">
+            <div class="section-title">Technical Projects</div>
+
+            <!-- Project 1 -->
+            <div class="item-header">
+                <span class="item-title">
+                    Cyber Attack Prediction & Early Warning System 
+                    <span style="font-weight: normal;">| <em>Python, Scikit-Learn, Streamlit, Plotly, Git</em></span>
+                </span>
+                <span class="item-date">
+                    <a href="https://github.com/Praveen01k/cyber-attack-prediction-system" target="_blank">🔗 View on GitHub</a>
+                </span>
+            </div>
+            <div class="item-sub">B.Tech Capstone Project (Course Code: 8CD7-50) &nbsp;|&nbsp; Approved by BKBIET Faculty</div>
+            <ul class="bullet-list">
+                <li>Designed and engineered an end-to-end network intrusion detection system classifying traffic into 4 attack vectors (<strong>DoS, Probe, R2L, U2R</strong>) against baseline normal traffic using NSL-KDD & CICIDS2017 benchmark standards.</li>
+                <li>Trained and benchmarked <strong>Random Forest</strong> and <strong>Support Vector Machine (SVM)</strong> algorithms, attaining <strong>99.9% detection accuracy</strong> and >99.8% precision with low false-positive rates.</li>
+                <li>Built an interactive SOC dashboard featuring live packet inspection, batch <code>.csv</code> log scanning, calibrated risk scoring (0-100), and automated Linux <code>iptables</code> firewall defense generation.</li>
+                <li>Containerized and published complete open-source codebase, pre-trained weights, and documentation to GitHub.</li>
+            </ul>
+
+            <!-- Project 2 -->
+            <div class="item-header">
+                <span class="item-title">
+                    Real-Time Cloud ETL & Big Data Processing Pipeline 
+                    <span style="font-weight: normal;">| <em>Python, AWS S3, Pandas, MySQL</em></span>
+                </span>
+                <span class="item-date">Nov 2024</span>
+            </div>
+            <div class="item-sub">Cloud Data Engineering Architecture</div>
+            <ul class="bullet-list">
+                <li>Architected an automated ETL pipeline that ingests, cleanses, and transforms large unstructured datasets on AWS cloud storage.</li>
+                <li>Developed automated schema validation and outlier sanitization scripts, eliminating 95% of data corruption and null-entry errors.</li>
+                <li>Optimized SQL analytical indexing and schema design in MySQL, reducing aggregation execution times by 35%.</li>
+            </ul>
+        </div>
+
+        <!-- TRAINING & INTERNSHIPS -->
+        <div class="section">
+            <div class="section-title">Professional Training & Experience</div>
+
+            <div class="item-header">
+                <span class="item-title">Data Engineering & Big Data Systems &nbsp;|&nbsp; <span style="font-weight: normal;">Regex Software</span></span>
+                <span class="item-date">June 2025</span>
+            </div>
+            <ul class="bullet-list">
+                <li>Completed an intensive 8-week specialization covering AWS cloud services (S3, EC2), ETL pipelines, and big data cleansing.</li>
+                <li>Developed automated data transformation routines processing high-volume datasets into structured relational formats.</li>
+            </ul>
+
+            <div class="item-header">
+                <span class="item-title">Machine Learning & Data Science &nbsp;|&nbsp; <span style="font-weight: normal;">Internshala Trainings</span></span>
+                <span class="item-date">July 2024</span>
+            </div>
+            <ul class="bullet-list">
+                <li>Completed an 8-week rigorous program covering Supervised, Unsupervised Learning, Feature Engineering, and Model Evaluation (Grade: 70%).</li>
+                <li>Built predictive classification and clustering models applying cross-validation and hyperparameter tuning to eliminate overfitting.</li>
+            </ul>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="item-header">
+                <span class="item-title">BK Birla Institute of Engineering & Technology, Pilani (BTU)</span>
+                <span class="item-date">2022 – 2026</span>
+            </div>
+            <div class="item-sub">Bachelor of Technology (B.Tech) in CSE (Specialization: Data Science) &nbsp;|&nbsp; <strong>CGPA: 7.4 / 10.0</strong></div>
+
+            <div class="item-header" style="margin-top: 4px;">
+                <span class="item-title">Paramhans Shri Ganeshji Pandit Sr. Sec. School, Chirawa</span>
+                <span class="item-date">2020 – 2022</span>
+            </div>
+            <div class="item-sub">Class XII (Senior Secondary, Science/Maths): <strong>75.0%</strong> &nbsp;|&nbsp; Class X (Secondary): <strong>68.8%</strong></div>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="section" style="margin-bottom: 0;">
+            <div class="section-title">Achievements & Extracurriculars</div>
+            <ul class="bullet-list" style="margin-bottom: 0;">
+                <li><strong>Capstone Research Approval:</strong> Formally approved for AI Network Security project by BKBIET Evaluation Board (2026).</li>
+                <li><strong>Academic Distinction:</strong> Ranked Top 500 in the District-level Bhartiya Sanskriti Gyan Pariksha.</li>
+                <li><strong>Sports Excellence:</strong> 1st Place in School 100m Athletic Sprint; Gold Medal in Inter-House Long Jump.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
