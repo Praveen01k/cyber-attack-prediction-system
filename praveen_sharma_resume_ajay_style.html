@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Sharma - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Cambria', 'Georgia', 'Times New Roman', serif;
+            color: #1a1a1a;
+            line-height: 1.32;
+            background-color: #f1f5f9;
+            padding: 20px;
+        }
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px 48px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 14px;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            color: #000000;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+        .header-line {
+            font-size: 13px;
+            color: #222222;
+            margin-bottom: 2px;
+        }
+        .header-line a {
+            color: #0044cc;
+            text-decoration: underline;
+        }
+        .section-title {
+            font-size: 13.5px;
+            font-weight: bold;
+            color: #000000;
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            letter-spacing: 0.3px;
+        }
+        .summary-text {
+            font-size: 12px;
+            color: #222222;
+            text-align: justify;
+            margin-bottom: 8px;
+        }
+        .skills-list {
+            font-size: 12px;
+            color: #222222;
+            margin-bottom: 8px;
+        }
+        .skills-list p {
+            margin-bottom: 2px;
+        }
+        .skills-list strong {
+            color: #000000;
+        }
+        .item-heading {
+            font-size: 12.5px;
+            margin-top: 5px;
+            margin-bottom: 2px;
+        }
+        .item-heading strong {
+            color: #000000;
+        }
+        .item-heading em {
+            font-style: italic;
+            color: #333333;
+        }
+        .item-sub {
+            font-size: 11px;
+            color: #0044cc;
+            margin-bottom: 2px;
+        }
+        .item-sub a {
+            color: #0044cc;
+            text-decoration: underline;
+        }
+        ul.bullet-list {
+            list-style-type: none;
+            margin-bottom: 6px;
+        }
+        ul.bullet-list li {
+            font-size: 12px;
+            color: #222222;
+            margin-bottom: 2px;
+            text-align: justify;
+            position: relative;
+            padding-left: 14px;
+        }
+        ul.bullet-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #000000;
+            font-size: 14px;
+            line-height: 1;
+        }
+        .print-btn-container {
+            text-align: center;
+            margin-bottom: 14px;
+        }
+        .print-btn {
+            background-color: #0044cc;
+            color: #ffffff;
+            border: none;
+            padding: 9px 20px;
+            border-radius: 4px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0, 68, 204, 0.3);
+        }
+        .print-btn:hover {
+            background-color: #003399;
+        }
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                padding: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+            .print-btn-container {
+                display: none;
+            }
+            a {
+                color: #0044cc !important;
+                text-decoration: underline !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-btn-container">
+        <button class="print-btn" onclick="window.print()">🖨️ Print or Save as 1-Page PDF (Ctrl + P)</button>
+    </div>
+
+    <div class="page">
+        <!-- HEADER -->
+        <header>
+            <h1>PRAVEEN SHARMA</h1>
+            <div class="header-line">
+                Heerwa (JJN), Rajasthan | Phone: +91-6375181765 | Email: <a href="mailto:Praveensharma01k@gmail.com">Praveensharma01k@gmail.com</a>
+            </div>
+            <div class="header-line">
+                LinkedIn: <a href="https://www.linkedin.com/in/praveensharma" target="_blank">https://www.linkedin.com/in/praveensharma</a> | GitHub: <a href="https://github.com/Praveen01k" target="_blank">https://github.com/Praveen01k</a>
+            </div>
+        </header>
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <p class="summary-text">
+            Detail-oriented and analytical Data Science graduate with practical expertise in Python, SQL, Machine Learning, and Cloud Platforms. Currently undergoing specialized practical training in AI and Data Science. Proven ability to develop data-driven applications, build predictive models, and transform raw data into actionable technical and business insights. Seeking to leverage analytical thinking in a challenging Data Scientist, Machine Learning Engineer, or Data Analyst role.
+        </p>
+
+        <!-- TECHNICAL SKILLS -->
+        <div class="section-title">TECHNICAL SKILLS</div>
+        <div class="skills-list">
+            <p><strong>Programming Languages:</strong> Python, SQL, C++, Java</p>
+            <p><strong>Libraries & Frameworks:</strong> Pandas, NumPy, Scikit-Learn (Machine Learning), Matplotlib, PyTorch, Seaborn</p>
+            <p><strong>Data Visualization & BI:</strong> Tableau, Advanced Excel</p>
+            <p><strong>Database Management:</strong> SQL (MySQL Server), PostgreSQL</p>
+            <p><strong>Tools & Technologies:</strong> Git, GitHub, VS Code, Jupyter Notebook, Streamlit, AWS</p>
+            <p><strong>Core Competencies:</strong> Data Cleaning, Exploratory Data Analysis (EDA), Statistical Analysis, Machine Learning, Anomaly Detection, Agile Methodologies</p>
+        </div>
+
+        <!-- PRACTICAL PROJECTS -->
+        <div class="section-title">PRACTICAL PROJECTS</div>
+
+        <!-- Project 1 -->
+        <div class="item-heading">
+            <strong>Cyber Security Prediction System</strong> | <em>Python, Scikit-Learn, Streamlit, Machine Learning</em>
+        </div>
+        <div class="item-sub">
+            GitHub: <a href="https://github.com/Praveen01k/cyber-attack-prediction-system" target="_blank">https://github.com/Praveen01k/cyber-attack-prediction-system</a>
+        </div>
+        <ul class="bullet-list">
+            <li>Built an end-to-end predictive analytics model in Python to analyze network log data and identify potential cybersecurity threats (DoS, Probe, R2L, U2R).</li>
+            <li>Performed data preprocessing using Pandas and trained Random Forest and Support Vector Machine (SVM) algorithms via Scikit-Learn, attaining 99.9% detection accuracy.</li>
+            <li>Designed an interactive Streamlit SOC web dashboard for live packet inspection, batch .csv log scanning, automated risk scoring, and firewall mitigation.</li>
+        </ul>
+
+        <!-- Project 2 -->
+        <div class="item-heading">
+            <strong>E-Commerce Sales Insights Dashboard</strong> | <em>Tableau, SQL, Advanced Excel</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Developed an interactive visual dashboard in Tableau to track key e-commerce metrics, including revenue trends, order distributions, and customer demographics.</li>
+            <li>Utilized SQL for complex data extraction and Excel for initial data cleansing, enabling data-driven decision-making for business growth.</li>
+        </ul>
+
+        <!-- Project 3 -->
+        <div class="item-heading">
+            <strong>Cloud ETL & Big Data Processing Pipeline</strong> | <em>Python, AWS S3, Pandas, MySQL</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Designed an automated cloud ETL pipeline in Python that ingests, cleanses, and transforms large tabular datasets on AWS S3 storage.</li>
+            <li>Applied automated validation routines to eliminate null-entry anomalies, optimizing SQL queries in MySQL Server for 35% faster retrieval speeds.</li>
+        </ul>
+
+        <!-- EDUCATION & TRAINING -->
+        <div class="section-title">EDUCATION & TRAINING</div>
+
+        <div class="item-heading">
+            <strong>Data Engineering (Big Data) Training</strong> | <em>Regex Software</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Intensive practical training focused on real-world Data Engineering workflows, cloud architectures, ETL pipelines, and big data transformations on AWS. (June 2025 – Present)</li>
+        </ul>
+
+        <div class="item-heading">
+            <strong>Machine Learning & Data Science Specialization</strong> | <em>Internshala Trainings</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Comprehensive practical training focused on predictive modeling, supervised and unsupervised learning algorithms, feature engineering, and model evaluation metrics. (July 2024 – Sep 2024)</li>
+        </ul>
+
+        <div class="item-heading">
+            <strong>B.Tech in Computer Science and Engineering with Data Science</strong> | <em>B K Birla Institute of Engineering & Technology, Pilani</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Graduated with comprehensive practical knowledge in software engineering, machine learning, database management, and big data analytics. (2022 – 2026 | CGPA: 7.4)</li>
+        </ul>
+
+        <div class="item-heading">
+            <strong>Higher Secondary Education (Class XII) & Secondary (Class X)</strong> | <em>Paramhans Shri Ganeshji Pandit Sr. Sec. School, Chirawa</em>
+        </div>
+        <ul class="bullet-list">
+            <li>Senior Secondary Certificate (Science & Mathematics): 75.0% (2022) | Secondary School Certificate: 68.8% (2020)</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
