@@ -1,0 +1,221 @@
+{
+  "classes": [
+    "Normal",
+    "DoS",
+    "Probe",
+    "R2L",
+    "U2R"
+  ],
+  "features": [
+    "protocol_type",
+    "service",
+    "flag",
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "wrong_fragment",
+    "urgent",
+    "num_failed_logins",
+    "logged_in",
+    "num_compromised",
+    "root_shell",
+    "su_attempted",
+    "num_root",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "dst_host_count",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_serror_rate"
+  ],
+  "feature_importances": [
+    {
+      "feature": "serror_rate",
+      "importance": 0.1407
+    },
+    {
+      "feature": "dst_host_serror_rate",
+      "importance": 0.1268
+    },
+    {
+      "feature": "dst_host_same_srv_rate",
+      "importance": 0.1247
+    },
+    {
+      "feature": "srv_count",
+      "importance": 0.0835
+    },
+    {
+      "feature": "dst_host_count",
+      "importance": 0.0746
+    },
+    {
+      "feature": "same_srv_rate",
+      "importance": 0.0632
+    },
+    {
+      "feature": "dst_host_diff_srv_rate",
+      "importance": 0.0596
+    },
+    {
+      "feature": "dst_bytes",
+      "importance": 0.0557
+    },
+    {
+      "feature": "diff_srv_rate",
+      "importance": 0.0555
+    },
+    {
+      "feature": "src_bytes",
+      "importance": 0.0482
+    },
+    {
+      "feature": "num_failed_logins",
+      "importance": 0.045
+    },
+    {
+      "feature": "count",
+      "importance": 0.0399
+    },
+    {
+      "feature": "duration",
+      "importance": 0.0218
+    },
+    {
+      "feature": "dst_host_srv_count",
+      "importance": 0.0124
+    },
+    {
+      "feature": "logged_in",
+      "importance": 0.0121
+    },
+    {
+      "feature": "flag",
+      "importance": 0.0108
+    },
+    {
+      "feature": "num_root",
+      "importance": 0.0065
+    },
+    {
+      "feature": "num_compromised",
+      "importance": 0.0058
+    },
+    {
+      "feature": "root_shell",
+      "importance": 0.0058
+    },
+    {
+      "feature": "su_attempted",
+      "importance": 0.0048
+    },
+    {
+      "feature": "service",
+      "importance": 0.0023
+    },
+    {
+      "feature": "protocol_type",
+      "importance": 0.0003
+    },
+    {
+      "feature": "urgent",
+      "importance": 0.0
+    },
+    {
+      "feature": "wrong_fragment",
+      "importance": 0.0
+    }
+  ],
+  "random_forest": {
+    "name": "Random Forest",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        720,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        390,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        240,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        120,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        30
+      ]
+    ]
+  },
+  "svm": {
+    "name": "Support Vector Machine (SVM)",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        720,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        390,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        240,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        120,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        30
+      ]
+    ]
+  }
+}

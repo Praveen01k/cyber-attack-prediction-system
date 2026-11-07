@@ -1,0 +1,6 @@
+"""
+Cyber Attack Prediction System
+Package Initialization
+"""
+__version__ = "1.0.0"
+__author__ = "Praveen Sharma & Ajay Saini"
